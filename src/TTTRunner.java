@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
-
-public class TTTRunner {
+public class TTTRunner
+{
+    public static void main(String[] args)
+    {
+        TTTGame game = new TTTGame();
+        game.startGame();
+    }
 }
